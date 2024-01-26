@@ -1,0 +1,25 @@
+.tableViewContainer{
+width: 
+100%;
+}
+
+.tableContainer{
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableContainer td, th{
+    border: 1px solid;
+    text-align: center;
+}
+
+.deleteFromTable{
+    display: flex;
+    align-items: center;
+}
+
+.deleteFromTable button{
+    margin: 10px;
+    height: 1.5rem;
+}

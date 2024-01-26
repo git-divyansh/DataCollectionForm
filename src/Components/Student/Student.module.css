@@ -1,0 +1,164 @@
+.studentContainer{
+
+    width: 100%;
+}
+
+.studentContainerHeading{
+    text-align: center;
+}
+
+.entityDropdownSelection{
+display: flex;
+align-items: center;
+ gap: 10px;
+align-items: center;
+ padding: 5px;
+ background-color: #eadb9e;
+
+}
+
+.entityDropdownSelection select, button{
+    height: 2rem;
+}   
+
+.addFieldOption{
+    color: white;
+    background-color: #496A81;
+    cursor: pointer;
+}
+
+.createResetButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    height: 3rem;
+    background-color: #eadb9e;
+}
+
+.actualFormdiv{
+    display: flex;
+    justify-content: center;
+    background-color: #F2F4F3;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* Data collection option */
+
+.dataFieldContainer{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: #F2F4F3;;
+}
+
+.selectFieldType{
+display: flex;
+align-items: center;
+
+gap: 10px;
+}
+
+.selectFieldType select{
+    height: 2rem;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* TextBox field type */
+
+.textboxFieldTypeContainer{
+    padding: 10px 0px;
+}
+
+.textboxFormContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textboxFormContainer div{
+    width: 35rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+.fieldFeatureSelectLength{
+    width: 12rem;
+    max-width: 15rem;
+    cursor: pointer;
+}
+
+.fieldFeatureInputLength {
+    width: 11.55rem;
+    text-decoration: none;
+}
+
+.confirmButton{
+    color: white;
+    background-color: #496A81;
+    width: 5rem;
+    margin-left: 31.7%;
+    cursor: pointer;
+}
+
+
+
+/* -------------------------------------------------------------------------------------- */
+/* Dropdown field type */
+
+.fieldDataContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    gap: 5px
+}
+
+.feilddataElements{
+    padding: 2px 2px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.dropDownIcons{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.dropDownFielddataConstainer{
+    display: flex;
+    justify-content: space-between;
+    height: 1.5rem;
+}
+
+.dropDownFielddataConstainer label{
+    flex: 20;
+}
+.dropDownFielddataConstainer input{
+    flex: 1;
+    width: 8rem;
+}
+.dropDownFielddataConstainer button{
+    flex: 1;
+    height: 1.5rem;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+/* DatePicker field type */
+
+.datepickerContainer{
+    
+}
+
+.datePickerReadOnly{
+    cursor: pointer;
+    width: 40px;
+    text-align: center;
+}

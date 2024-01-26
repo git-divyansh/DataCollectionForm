@@ -1,0 +1,51 @@
+.entityFormContainer{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 25rem;
+    margin: 5px;
+}
+
+.entityFormContainer h2{
+    text-align: center;
+}
+
+.formElementContainer{
+    /* border: 1px solid red; */
+    padding: 5px;
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.confirmButton{
+    border: 1px solid black;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #496A81;
+}
+
+
+.selectFeatureForm{
+    width: 10rem;
+    cursor: pointer;
+}
+
+.selectFeatureForm option{
+    cursor: pointer;
+}
+
+
+.formLabels{
+    
+    padding:3px;
+    border-radius: 5px;
+}
